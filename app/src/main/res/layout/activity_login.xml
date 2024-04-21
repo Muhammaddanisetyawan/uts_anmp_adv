@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="645dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="645dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="User Name"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="64dp"
+        android:layout_height="29dp"
+        android:text="LOGIN'"
+        tools:layout_editor_absoluteX="340dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cats World"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:textColor="#FFFEFE"
+        app:rippleColor="#1C73F6"
+        tools:layout_editor_absoluteX="549dp"
+        tools:layout_editor_absoluteY="281dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
